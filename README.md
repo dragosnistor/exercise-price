@@ -25,9 +25,9 @@ A Provider is an institution which provides quotes for different instruments.
 
 
 Every second, each Provider generates a new price and sends a Quote with the price to PriceAggregation. When this quote arrives to PriceAggregation should be printed in the following format:
-Received new quote [Provider : COINBASE , Instrument: BTC_USD, price: 9.88300994064184002, Time: 2022-07-27T09:57:03.152127Z]
-Received new quote [Provider : BINANCE , Instrument: BTC_USD, price: 9.91454720868519657, Time: 2022-07-27T09:57:03.152104Z]
-Received new quote [Provider : KRAKEN , Instrument: BTC_USD, price: 9.86205155510475373, Time: 2022-07-27T09:57:03.151963]
+> Received new quote [Provider : COINBASE , Instrument: BTC_USD, price: 9.88300994064184002, Time: 2022-07-27T09:57:03.152127Z]
+> Received new quote [Provider : BINANCE , Instrument: BTC_USD, price: 9.91454720868519657, Time: 2022-07-27T09:57:03.152104Z]
+> Received new quote [Provider : KRAKEN , Instrument: BTC_USD, price: 9.86205155510475373, Time: 2022-07-27T09:57:03.151963]
 
 These values are examples given the use of random prices.
 
@@ -39,6 +39,6 @@ Hint :
 
 # Exercise 2
 Every 5 seconds PriceAggregation will print the best quote (The quote with the less price):
-The best quote for BTC is [Provider : COINBASE , Instrument: BTC_USD, price: 7.93370810991729572, Time: 2022-07-27T09:57:07.147347Z]
+> The best quote for BTC is [Provider : COINBASE , Instrument: BTC_USD, price: 7.93370810991729572, Time: 2022-07-27T09:57:07.147347Z]
 
 This value is an example given the randomness in prices.
