@@ -36,7 +36,7 @@ These values are examples given the use of random prices.
 Hint :
 - You can use a Simple Thread which sleeps every second until is finished (TimeUnit.sleep(1)).
 - Don't forget to end all your Threads (Step 5).
-- Use the Delta class to generate newRandomDelta to change the current price of each Provider.
+- Use PriceUtil class to generate newRandomDelta to change the current price of each Provider.
 
 
 # Exercise 2
